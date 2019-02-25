@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * Lab 6
  *
@@ -21,7 +23,11 @@ public class EquilateralTriangle extends Polygon
 	 */
 	public EquilateralTriangle(String id, double sideLength)
 	{
-		// TODO: complete this...
+		super(id);
+		for (int i = 0; i < 3; i++)
+		{
+			sideLengths.add(sideLength);
+		}
 	}
 
 	/**
@@ -32,7 +38,9 @@ public class EquilateralTriangle extends Polygon
 	@Override
 	public double getArea()
 	{
-		// TODO: complete this...
+		double area = (sideLength * sideLength) / 2;
+		
+		return area;
 	}
 
 	/**
@@ -43,6 +51,6 @@ public class EquilateralTriangle extends Polygon
 	@Override
 	public String getShapeType()
 	{
-		// TODO: complete this...
+		return "EquilateralTriangle";
 	}
 }

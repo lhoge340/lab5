@@ -16,6 +16,8 @@ Tasks:
 9. Finish ShapeSorter class (constructor, addSahpe, sortShapes(), sortShapes(variable), toString)
 10. Finish tests for shapes in ShapeTest class (Rectangle, triangle, trapezoid, circle)
 11. Finish tests for methods in ShapeTest class (ShapeToStringTest, ComparePerimeterTest, NaturalCompareTest)
+12. Write Rectangle class
+13. Write Square class
 
 Estimated Time (minutes):
 1. 5
@@ -29,17 +31,21 @@ Estimated Time (minutes):
 9. 20
 10. 15
 11. 25
+12. 30
+13. 30
 
 Actual Time (minutes):
-1. 
-2. 
-3. 
+1. 5
+2. 15
+3. 10
 4. 
-5.
-6.
-7.
-8.
-9.
-10.
-11.
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12.
+13. 
 */}

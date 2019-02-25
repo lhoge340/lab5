@@ -7,8 +7,8 @@ import org.junit.Test;
  * Test class for ShapeSorter.
  * Implicitly tests that the comparators are implemented correctly.
  *
- * @author Stephen
- * @version 2019-02-18
+ * @author Lynden
+ * @version 2019-02-24
  */
 public class ShapeSorterTest
 {

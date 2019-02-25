@@ -5,8 +5,8 @@
  * through use of the defined natural ordering of shapes (compareTo in Shape) and
  * an alternate order (compare in ShapeAreaComparator/ShapePerimeterComparator).
  *
- * @author Stephen
- * @version 2019-02-18
+ * @author Lynden
+ * @version 2019-02-24
  */
 public class Driver
 {
@@ -50,5 +50,7 @@ public class Driver
 		sorter.sortShapes(new ShapePerimeterComparator());
 		System.out.println("###");
 		System.out.println(sorter);
+		
+		
 	}
 }
