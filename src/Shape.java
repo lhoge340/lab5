@@ -3,8 +3,8 @@
  *
  * Class representing a shape.
  *
- * @author Stephen
- * @version 2019-02-18
+ * @author Lynden
+ * @version 2019-02-24
  */
 public abstract class Shape implements Comparable<Shape>
 {

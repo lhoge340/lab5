@@ -6,8 +6,8 @@ import org.junit.Test;
  *
  * Test class for shapes and their comparators.
  *
- * @author Stephen
- * @version 2019-02-18
+ * @author Lynden
+ * @version 2019-02-24
  */
 public class ShapeTest
 {

@@ -3,8 +3,8 @@
  *
  * Class representing an equilateral Triangle.
  *
- * @author Stephen
- * @version 2019-02-18
+ * @author Lynden
+ * @version 2019-02-24
  */
 public class EquilateralTriangle extends Polygon
 {

@@ -7,8 +7,8 @@ import java.util.Comparator;
  * Sorting is done either through the natural ordering of shapes
  * or through a given comparator.
  *
- * @author Stephen
- * @version 2019-02-17
+ * @author Lynden
+ * @version 2019-02-24
  */
 public class ShapeSorter
 {

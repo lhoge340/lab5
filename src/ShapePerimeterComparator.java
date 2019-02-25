@@ -9,8 +9,8 @@ import java.util.Comparator;
  * When a sorting function uses this class instead of the compareTo() method in shape, the sorting function
  * will sort the list of shapes in ascending order of perimeter. The area is ignored.
  *
- * @author Stephen
- * @version 2019-02-17
+ * @author Lynden
+ * @version 2019-02-24
  */
 public class ShapePerimeterComparator implements Comparator<Shape>
 {

@@ -5,8 +5,8 @@
  * able to consistently define an area function, as explained here:
  * https://math.stackexchange.com/questions/2637690/is-there-a-formula-to-calculate-the-area-of-a-trapezoid-knowing-the-length-of-al?rq=1
  *
- * @author Stephen
- * @version 2019-02-18
+ * @author Lynden
+ * @version 2019-02-24
  */
 public class Trapezoid extends Polygon
 {

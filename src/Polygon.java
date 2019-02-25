@@ -3,8 +3,8 @@ import java.util.ArrayList;
 /**
  * Abstract shape class to define a polygon.
  *
- * @author Stephen
- * @version 2019-02-18
+ * @author Lynden
+ * @version 2019-02-24
  */
 public abstract class Polygon extends Shape
 {
