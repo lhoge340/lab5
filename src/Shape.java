@@ -4,7 +4,7 @@
  * Class representing a shape.
  *
  * @author Lynden
- * @version 2019-02-24
+ * @version 2019-02-26
  */
 public abstract class Shape implements Comparable<Shape>
 {
@@ -95,9 +95,31 @@ public abstract class Shape implements Comparable<Shape>
 	@Override
 	public int compareTo(Shape s)
 	{
-		// TODO: complete this...
+		if (this.getArea() > s.getArea())
+		{
+			return 1;
+		}
+		else if (this.getArea() < s.getArea())
+		{
+			return -1;
+		}
+		else 
+		{
+			if (this.getPerimeter() > s.getPerimeter())
+			{
+				return 1;
+			}
+			else if (this.getPerimeter() < s.getPerimeter())
+			{
+				return -1;
+			}
+			else
+			{
+				return 0;
+			}
+		}
 	}
-
+	
 	/**
 	 * Gets the shape's id.
 	 *
@@ -129,6 +151,9 @@ public abstract class Shape implements Comparable<Shape>
 	@Override
 	public String toString()
 	{
-		// TODO: complete this...
+		String output;
+		output = String.format("%s\t ID = %s\t area = %f\t perimeter = %f", getShapeType(), id, getArea(),
+				getPerimeter());
+		return output;
 	}
 }
