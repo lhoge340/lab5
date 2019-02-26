@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Class representing an equilateral Triangle.
  *
  * @author Lynden
- * @version 2019-02-24
+ * @version 2019-02-26
  */
 public class EquilateralTriangle extends Polygon
 {

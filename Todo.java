@@ -1,6 +1,6 @@
 public class Todo {/*
 Lab Section_________: 11
-Last Modified_______: 2019-02-24
+Last Modified_______: 2019-02-26
 OU ID_______________: 113442594
 OU EMAIL____________: lynden.hoge@ou.edu
 
@@ -40,7 +40,7 @@ Actual Time (minutes):
 3. 10
 4. 15
 5. 3
-6. 
+6. 10
 7. 
 8. 
 9. 
