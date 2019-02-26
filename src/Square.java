@@ -17,9 +17,9 @@ public class Square extends Rectangle
 	 * 
 	 * @param size The length of the side of the square, which is the same for all four sides
 	 */
-	public Square(double size)
+	public Square(String id, double size)
 	{
-		super("Square", size, size);
+		super(id, size, size);
 	}
 	
 	/**
