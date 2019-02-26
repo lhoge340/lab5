@@ -10,7 +10,7 @@ import java.util.Comparator;
  * will sort the list of shapes in ascending order of perimeter. The area is ignored.
  *
  * @author Lynden
- * @version 2019-02-24
+ * @version 2019-02-26
  */
 public class ShapePerimeterComparator implements Comparator<Shape>
 {
@@ -32,7 +32,18 @@ public class ShapePerimeterComparator implements Comparator<Shape>
 	@Override
 	public int compare(Shape s1, Shape s2)
 	{
-		// TODO: complete this...
+		if (s1.getPerimeter() < s2.getPerimeter())
+		{
+			return -1;
+		}
+		else if (s1.getPerimeter() > s2.getPerimeter())
+		{
+			return 1;
+		}
+		else
+		{
+			return 0;
+		}
 	}
 
 	/**
@@ -45,6 +56,13 @@ public class ShapePerimeterComparator implements Comparator<Shape>
 	 */
 	public boolean equals(Shape s1, Shape s2)
 	{
-		// TODO: complete this...
+		if (compare(s1, s2) == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
 }
