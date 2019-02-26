@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class EquilateralTriangle extends Polygon
 {
     /**
-     * Lenght of the sides of the equilateral triangle.
+     * Length of the sides of the equilateral triangle.
      */
     private double sideLength;
 
@@ -24,6 +24,8 @@ public class EquilateralTriangle extends Polygon
 	public EquilateralTriangle(String id, double sideLength)
 	{
 		super(id);
+		this.sideLength = sideLength;
+		
 		for (int i = 0; i < 3; i++)
 		{
 			sideLengths.add(sideLength);
