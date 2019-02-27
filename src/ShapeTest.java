@@ -60,8 +60,17 @@ public class ShapeTest
 	@Test
 	public void TrapezoidTest()
 	{
-		// TODO: complete this...
-		Shape trpzd = new Trapezoid("Trapezoid1", 2.0, 4.0, 3.0, 6.0);
+		Shape trpzd1 = new Trapezoid("Trapezoid1", 20.0, 15.0, 30.0, 55.0);
+		Assert.assertEquals("Trapezoid area incorrect.", 510.0, trpzd1.getArea(), 0.0001);
+		Assert.assertEquals("Trapezoid perimeter incorrect.", 120.0, trpzd1.getPerimeter(), 0.0001);
+		Assert.assertEquals("Trapezoid type incorrect.", "Trapezoid", trpzd1.getShapeType());
+		Assert.assertEquals("Shape ID incorrect.", "Trapezoid1", trpzd1.getId());
+		
+		Shape trpzd2 = new Trapezoid("Trapezoid2", 5.0, 3.0, 4.0, 8.0);
+		Assert.assertEquals("Trapezoid area incorrect.", 18.0, trpzd2.getArea(), 0.0001);
+		Assert.assertEquals("Trapezoid perimeter incorrect.", 20.0, trpzd2.getPerimeter(), 0.0001);
+		Assert.assertEquals("Trapezoid type incorrect.", "Trapezoid", trpzd2.getShapeType());
+		Assert.assertEquals("Shape ID incorrect.", "Trapezoid2", trpzd2.getId());
 		
 	}
 
@@ -94,7 +103,18 @@ public class ShapeTest
 	@Test
 	public void CircleTest()
 	{
-		// TODO: complete this...
+		Shape crcl = new Circle("Circle1", 3.0);
+		Assert.assertEquals("Circle area incorrect.", Math.PI*3.0*3.0, crcl.getArea(), 0.0001);
+		Assert.assertEquals("Circle perimeter incorrect.", 2 * Math.PI * 3.0, crcl.getPerimeter(), 0.0001);
+		Assert.assertEquals("Circle type incorrect.", "Circle", crcl.getShapeType());
+		Assert.assertEquals("Shape ID incorrect.", "Circle1", crcl.getId());
+		
+		Shape crcl2 = new Circle("Circle2", 4.0);
+		Assert.assertEquals("Circle area incorrect.", Math.PI*4.0*4.0, crcl2.getArea(), 0.0001);
+		Assert.assertEquals("Circle perimeter incorrect.", 2 * Math.PI * 4.0, crcl2.getPerimeter(), 0.0001);
+		Assert.assertEquals("Circle type incorrect.", "Circle", crcl2.getShapeType());
+		Assert.assertEquals("Shape ID incorrect.", "Circle2", crcl2.getId());
+		
 	}
 
 	/**
