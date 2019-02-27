@@ -48,7 +48,7 @@ public class ShapeTest
 	public void TriangleTest()
 	{
 		Shape trng = new EquilateralTriangle("Triangle1", 2.0);
-		Assert.assertEquals("Triangle area incorrect.", 2.0, trng.getArea(), 0.0001);
+		Assert.assertEquals("Triangle area incorrect.", 1.732, trng.getArea(), 0.0001);
 		Assert.assertEquals("Triangle perimeter incorrect", 6.0, trng.getPerimeter(), 0.0001);
 		Assert.assertEquals("Triangle type incorrect.", "EquilateralTriangle", trng.getShapeType());
 		Assert.assertEquals("Shape ID incorrect.", "Triangle1", trng.getId());

@@ -51,6 +51,9 @@ public class Driver
 		System.out.println("###");
 		System.out.println(sorter);
 		
+		Shape circle = new Circle("Circle1", 3.0);
+		System.out.println();
+		System.out.println(circle.getArea());
 		
 	}
 }
