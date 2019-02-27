@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * Abstract shape class to define a polygon.
  *
  * @author Lynden
- * @version 2019-02-24
+ * @version 2019-02-26
  */
 public abstract class Polygon extends Shape
 {

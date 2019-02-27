@@ -18,6 +18,7 @@ Tasks:
 11. Finish tests for methods in ShapeTest class (ShapeToStringTest, ComparePerimeterTest, NaturalCompareTest)
 12. Write Rectangle class
 13. Write Square class
+14. Analyze tests to guarantee full coverage
 
 Estimated Time (minutes):
 1. 5
@@ -33,6 +34,7 @@ Estimated Time (minutes):
 11. 25
 12. 30
 13. 30
+14. 45
 
 Actual Time (minutes):
 1. 5
@@ -48,4 +50,5 @@ Actual Time (minutes):
 11. 35
 12. 15
 13. 15
+14. 60
 */}

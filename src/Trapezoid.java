@@ -6,7 +6,7 @@
  * https://math.stackexchange.com/questions/2637690/is-there-a-formula-to-calculate-the-area-of-a-trapezoid-knowing-the-length-of-al?rq=1
  *
  * @author Lynden
- * @version 2019-02-24
+ * @version 2019-02-26
  */
 public class Trapezoid extends Polygon
 {
